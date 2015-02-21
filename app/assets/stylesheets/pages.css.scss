@@ -1,0 +1,96 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("http://s3.amazonaws.com/codecademy-content/projects/pocketbook/bg.jpg");
+  background-size: cover;
+}
+
+.container {
+  width: 940px;
+}
+
+/* Header */
+.header .logo {
+  width: 80px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.line-separator{
+  height:1px;
+  border-bottom:1px solid white;
+  padding-bottom: 30px;
+
+}
+
+
+/* Form */
+
+h1 {
+  color: white;
+}
+
+.main h1 .box {
+  padding-top: 40px;
+  color: white;
+}
+
+.main label {
+  color: white;
+}
+
+.main button {
+  background-color: #286152;
+  color: white;
+  border-style: none;
+  border-radius: 0px;
+  margin-bottom: 60px;
+}
+
+.main .create {
+  padding-top: 50px;
+}
+
+.footer ul {
+  padding: 20px 0px;
+  list-style-type: none;
+  color: white;
+}
+
+.footer li {
+  display: inline;
+  color: white;
+  padding-right: 20px;
+}
+
+.footer a {
+  color: #286152;
+}
+
+.nav li a {
+  display: inline;
+}
+
+.nav li a:hover {
+  color: black;
+}
+
+li.active a {
+  background-color: white;
+  color: black;
+}
+
+.box {
+  height: 400px;
+}
+
+.box h1 {
+  color: white;
+}
