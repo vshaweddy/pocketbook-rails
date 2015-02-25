@@ -22,10 +22,10 @@
   <div class="footer">
     <div class="container">
       <ul class="nav">
-        <li class="<%= 'active' if params[:action] == 'signup' %>"><%= link_to "Sign Up", 'signup' %></li>
-        <li class="<%= 'active' if params[:action] == 'contact' %>"><%= link_to "Contact", 'contact' %></li>
-        <li class="<%= 'active' if params[:action] == 'help' %>"><%= link_to "Help", 'help' %></li>
-        <li class="<%= 'active' if params[:action] == 'about' %>"><%= link_to "About", 'about' %></li>
+        <li class="<%= 'active' if params[:action] == 'signup' %>"><%= link_to "Sign Up", signup_path %></li>
+        <li class="<%= 'active' if params[:action] == 'contact' %>"><%= link_to "Contact", contact_path %></li>
+        <li class="<%= 'active' if params[:action] == 'help' %>"><%= link_to "Help", help_path %></li>
+        <li class="<%= 'active' if params[:action] == 'about' %>"><%= link_to "About", about_path %></li>
       </ul>
     </div>
   </div>
